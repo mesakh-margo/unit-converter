@@ -1,0 +1,123 @@
+body {
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    margin: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.container {
+    background-color: #1F2937;
+    margin: auto;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 204px;
+    margin: 0;
+    padding: 0;
+    background-color: #4C1D95;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#header {
+    width: 314px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 23px 36px 21px;
+    padding: 4px 8px;
+}
+
+#input-el {
+    background-color: transparent;
+    color: white;
+    border: 1.4px solid #B295FF;
+    border-radius: 3.5px;
+    text-align: center;
+    font-family: inherit;
+    /* line-height: 17px; */
+    font-weight: 800;
+    font-size: 41px;
+    width: 82px;
+    margin-bottom: 18px;
+    padding: 4px 0;
+    cursor: pointer;
+}
+
+#input-el::-webkit-outer-spin-button,
+#input-el::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  /* margin: 0; */
+}
+
+#input-el:focus {
+    outline: none;
+}
+
+#convert-btn {
+    background-color: white;
+    color: #3D3D3D;
+    line-height: 17px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 11px;
+    width: 82px;
+    height: 29px;
+    padding: 0;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 311px;
+    margin: 0;
+    padding: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.quantity {
+    background-color: #273549;
+    border-top-left-radius: 5px;
+    width: 350px;
+    height: 76px;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #CCC1FF;
+    margin-top: 22px;
+    margin-bottom: 6px;
+}
+
+.result {
+    line-height: 14px;
+    font-size: 10px;
+    margin-bottom: 13px;
+    padding: 0;
+    color: white;
+}
