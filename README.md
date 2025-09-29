@@ -1,3 +1,4 @@
+Hello World!
 # Getting Started
 Install the dependencies and run the project
 ```
